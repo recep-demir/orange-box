@@ -1,0 +1,42 @@
+/* body::before {
+    content: 'R7130 - Recep';
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    transform: translate(-50%, -50%) rotate(0deg); /* Çapraz yerleştirme */
+    font-size: 120px; /* Yazı boyutu */
+    color: rgba(255, 255, 255, 0.1); /* Transparan beyaz renk */
+    z-index: 0; /* En arka katman */
+    pointer-events: none; /* Yazıya tıklanmasını engelle */
+}
+.container{
+    display: grid;
+    margin: 50px;
+    justify-content:left;
+    align-items:center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ec9860, #f60505);
+    font-family: Arial, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container{
+    grid-template-columns: repeat(3, 1fr); /* 3 sütun olacak şekilde düzenleme */
+    gap: 20px; /* Kutular arasındaki boşluk */
+    max-width: 600px;
+    margin: 20px;
+}
+.box {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 3px solid transparent;
+}
+
+ */
